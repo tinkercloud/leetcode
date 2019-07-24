@@ -6,6 +6,7 @@ import (
 	_ "net/http/pprof"
 )
 
+// 应该还实现一版本,把所有匹配都返回的结果
 func TwoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	// rs := []int{}
