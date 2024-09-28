@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"net/http"
 	_ "net/http/pprof"
 )
 
@@ -54,6 +53,8 @@ func main() {
 	result := TwoSum(nums, target)
 
 	fmt.Println(result)
-	http.ListenAndServe("0.0.0.0:8080", nil)
 
 }
+
+
+
